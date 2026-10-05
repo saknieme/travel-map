@@ -6,5 +6,6 @@
   {"id": "tarragona", "name": "Tarragona", "country": "Spain", "lat": 41.119, "lng": 1.245, "status": "visited", "year": 2024, "when": "Mar 2024 · 7 days", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "barcelona", "name": "Barcelona", "country": "Spain", "lat": 41.385, "lng": 2.173, "status": "visited", "year": 2024, "when": "Mar 2024 · 1 day", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "rome", "name": "Rome", "country": "Italy", "lat": 41.903, "lng": 12.496, "status": "visited", "year": 2023, "when": "Mar 2023 · 6 days", "notes": "Family vacation.", "tags": ["family", "vacation"]},
-  {"id": "chengdu", "name": "Chengdu", "country": "China", "lat": 30.573, "lng": 104.066, "status": "visited", "year": 2019, "when": "Nov 2019 · 2 weeks", "notes": "Business trip.", "tags": ["business"]}
+  {"id": "chengdu", "name": "Chengdu", "country": "China", "lat": 30.573, "lng": 104.066, "status": "visited", "year": 2019, "when": "Nov 2019 · 2 weeks", "notes": "Business trip.", "tags": ["business"]},
+  {"id": "hsinchu-2019", "name": "Hsinchu", "country": "Taiwan", "lat": 24.804, "lng": 120.971, "status": "visited", "year": 2019, "when": "Aug 2019 · 2 weeks", "notes": "Business trip.", "tags": ["business"]}
 ]
