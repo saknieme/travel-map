@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Travel Map</title>
+<meta name="description" content="Places I've been and places I want to go.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%231d7656'/><circle cx='16' cy='16' r='6' fill='white'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="app">
+  <header>
+    <div class="brand">
+      <h1>My Travel Map</h1>
+      <p>Where I’ve been and where I’m going next</p>
+    </div>
+    <div class="stats" id="stats"></div>
+    <div class="actions">
+      <div class="chips" role="group" aria-label="Show">
+        <button class="chip" data-f="all" aria-pressed="true">All</button>
+        <button class="chip" data-f="visited" aria-pressed="false"><span class="dot v"></span>Visited</button>
+        <button class="chip" data-f="wishlist" aria-pressed="false"><span class="dot w"></span>Wishlist</button>
+      </div>
+      <details class="export">
+        <summary class="btn">Export</summary>
+        <div class="menu">
+          <button class="btn" data-export="json">Download JSON</button>
+          <button class="btn" data-export="csv">Download CSV</button>
+        </div>
+      </details>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="map-wrap">
+      <div id="map" aria-label="Map of places"></div>
+      <div class="legend"><span><span class="dot v"></span>Visited</span><span><span class="dot w"></span>Wishlist</span><span><span class="swatch"></span>Country visited</span></div>
+    </div>
+
+    <aside class="panel">
+      <div class="search"><input id="q" type="search" placeholder="Search places, countries, tags" aria-label="Search places"></div>
+      <section class="detail" id="detail" aria-live="polite"></section>
+      <ul class="list" id="list"></ul>
+    </aside>
+  </div>
+
+  <section class="timeline">
+    <div class="row"><b>Trips by year</b><span id="tlinfo">Click a year to filter</span></div>
+    <svg class="tl" id="tl" viewBox="0 0 1000 54" preserveAspectRatio="none" aria-label="Timeline of trips"></svg>
+  </section>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
