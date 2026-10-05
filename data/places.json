@@ -2,5 +2,7 @@
   {"id": "taipei", "name": "Taipei", "country": "Taiwan", "lat": 25.033, "lng": 121.565, "status": "visited", "year": 2025, "when": "Nov 2025 · 1 week", "notes": "Business trip.", "tags": ["business"]},
   {"id": "hsinchu", "name": "Hsinchu", "country": "Taiwan", "lat": 24.804, "lng": 120.971, "status": "visited", "year": 2025, "when": "Nov 2025 · 1 week", "notes": "Business trip.", "tags": ["business"]},
   {"id": "milano", "name": "Milano", "country": "Italy", "lat": 45.464, "lng": 9.19, "status": "visited", "year": 2025, "when": "Oct 2025 · 4 days", "notes": "Family vacation.", "tags": ["family", "vacation"]},
-  {"id": "dubrovnik", "name": "Dubrovnik", "country": "Croatia", "lat": 42.65, "lng": 18.094, "status": "visited", "year": 2024, "when": "Apr – May 2024 · 6 days", "notes": "Family vacation for Tiina’s birthday.", "tags": ["family", "vacation"]}
+  {"id": "dubrovnik", "name": "Dubrovnik", "country": "Croatia", "lat": 42.65, "lng": 18.094, "status": "visited", "year": 2024, "when": "Apr – May 2024 · 6 days", "notes": "Family vacation for Tiina’s birthday.", "tags": ["family", "vacation"]},
+  {"id": "tarragona", "name": "Tarragona", "country": "Spain", "lat": 41.119, "lng": 1.245, "status": "visited", "year": 2024, "when": "Mar 2024 · 7 days", "notes": "Family vacation.", "tags": ["family", "vacation"]},
+  {"id": "barcelona", "name": "Barcelona", "country": "Spain", "lat": 41.385, "lng": 2.173, "status": "visited", "year": 2024, "when": "Mar 2024 · 1 day", "notes": "Family vacation.", "tags": ["family", "vacation"]}
 ]
