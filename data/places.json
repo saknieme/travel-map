@@ -1,3 +1,4 @@
 [
-  {"id": "taipei", "name": "Taipei", "country": "Taiwan", "lat": 25.033, "lng": 121.565, "status": "visited", "year": 2025, "when": "Nov 2025 · 1 week", "notes": "Business trip.", "tags": ["business"]}
+  {"id": "taipei", "name": "Taipei", "country": "Taiwan", "lat": 25.033, "lng": 121.565, "status": "visited", "year": 2025, "when": "Nov 2025 · 1 week", "notes": "Business trip.", "tags": ["business"]},
+  {"id": "hsinchu", "name": "Hsinchu", "country": "Taiwan", "lat": 24.804, "lng": 120.971, "status": "visited", "year": 2025, "when": "Nov 2025 · 1 week", "notes": "Business trip.", "tags": ["business"]}
 ]
