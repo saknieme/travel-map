@@ -13,5 +13,6 @@
   {"id": "linkoping", "name": "Linköping", "country": "Sweden", "lat": 58.411, "lng": 15.622, "status": "visited", "year": 2018, "when": "Jan 2018 · 1 week", "notes": "Business trip.", "tags": ["business"]},
   {"id": "kanton", "name": "Kanton", "country": "China", "lat": 23.129, "lng": 113.264, "status": "visited", "year": 2017, "when": "Oct – Nov 2017 · 2 weeks", "notes": "Business trip. (Guangzhou)", "tags": ["business"]},
   {"id": "linkoping-2017", "name": "Linköping", "country": "Sweden", "lat": 58.411, "lng": 15.622, "status": "visited", "year": 2017, "when": "Oct 2017 · 5 days", "notes": "Business trip.", "tags": ["business"]},
-  {"id": "malta", "name": "Malta", "country": "Malta", "lat": 35.917, "lng": 14.41, "status": "visited", "year": 2018, "when": "Apr 2018 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
+  {"id": "malta", "name": "Malta", "country": "Malta", "lat": 35.917, "lng": 14.41, "status": "visited", "year": 2018, "when": "Apr 2018 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
+  {"id": "lontoo", "name": "Lontoo", "country": "United Kingdom", "lat": 51.507, "lng": -0.128, "status": "visited", "year": 2019, "when": "Apr 2019 · 1 day", "notes": "Family vacation. (London)", "tags": ["family", "vacation"]}
 ]
