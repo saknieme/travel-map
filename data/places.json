@@ -12,5 +12,6 @@
   {"id": "praha", "name": "Praha", "country": "Czechia", "lat": 50.075, "lng": 14.438, "status": "visited", "year": 2018, "when": "May 2018 · 4 days", "notes": "Trip with my wife.", "tags": ["couple"]},
   {"id": "linkoping", "name": "Linköping", "country": "Sweden", "lat": 58.411, "lng": 15.622, "status": "visited", "year": 2018, "when": "Jan 2018 · 1 week", "notes": "Business trip.", "tags": ["business"]},
   {"id": "kanton", "name": "Kanton", "country": "China", "lat": 23.129, "lng": 113.264, "status": "visited", "year": 2017, "when": "Oct – Nov 2017 · 2 weeks", "notes": "Business trip. (Guangzhou)", "tags": ["business"]},
-  {"id": "linkoping-2017", "name": "Linköping", "country": "Sweden", "lat": 58.411, "lng": 15.622, "status": "visited", "year": 2017, "when": "Oct 2017 · 5 days", "notes": "Business trip.", "tags": ["business"]}
+  {"id": "linkoping-2017", "name": "Linköping", "country": "Sweden", "lat": 58.411, "lng": 15.622, "status": "visited", "year": 2017, "when": "Oct 2017 · 5 days", "notes": "Business trip.", "tags": ["business"]},
+  {"id": "malta", "name": "Malta", "country": "Malta", "lat": 35.917, "lng": 14.41, "status": "visited", "year": 2018, "when": "Apr 2018 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
 ]
