@@ -16,5 +16,6 @@
   {"id": "malta", "name": "Malta", "country": "Malta", "lat": 35.917, "lng": 14.41, "status": "visited", "year": 2018, "when": "Apr 2018 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "lontoo", "name": "Lontoo", "country": "United Kingdom", "lat": 51.507, "lng": -0.128, "status": "visited", "year": 2019, "when": "Apr 2019 · 1 day", "notes": "Family vacation. (London)", "tags": ["family", "vacation"]},
   {"id": "seattle", "name": "Seattle", "country": "United States of America", "lat": 47.606, "lng": -122.332, "status": "visited", "year": 2012, "when": "2012 · 2 weeks", "notes": "Business trip.", "tags": ["business"]},
-  {"id": "vancouver", "name": "Vancouver", "country": "Canada", "lat": 49.283, "lng": -123.121, "status": "visited", "year": 2012, "when": "2012 · 1 day", "notes": "Solo trip.", "tags": ["solo"]}
+  {"id": "vancouver", "name": "Vancouver", "country": "Canada", "lat": 49.283, "lng": -123.121, "status": "visited", "year": 2012, "when": "2012 · 1 day", "notes": "Solo trip.", "tags": ["solo"]},
+  {"id": "benalmadena", "name": "Benalmádena", "country": "Spain", "lat": 36.596, "lng": -4.573, "status": "visited", "year": 2015, "when": "Jun 2015 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
 ]
