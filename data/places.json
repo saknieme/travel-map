@@ -20,5 +20,6 @@
   {"id": "benalmadena", "name": "Benalmádena", "country": "Spain", "lat": 36.596, "lng": -4.573, "status": "visited", "year": 2015, "when": "Jun 2015 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "tallinna", "name": "Tallinna", "country": "Estonia", "lat": 59.437, "lng": 24.754, "status": "visited", "year": 2015, "when": "Dec 2015 · 2 days", "notes": "Family vacation. (Tallinn)", "tags": ["family", "vacation"]},
   {"id": "ateena", "name": "Ateena", "country": "Greece", "lat": 37.984, "lng": 23.728, "status": "visited", "year": 2014, "when": "Jul 2014 · 3 days", "notes": "Family vacation. (Athens)", "tags": ["family", "vacation"]},
-  {"id": "volos", "name": "Volos", "country": "Greece", "lat": 39.362, "lng": 22.942, "status": "visited", "year": 2014, "when": "Jun 2014 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
+  {"id": "volos", "name": "Volos", "country": "Greece", "lat": 39.362, "lng": 22.942, "status": "visited", "year": 2014, "when": "Jun 2014 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
+  {"id": "alicante", "name": "Alicante", "country": "Spain", "lat": 38.345, "lng": -0.481, "status": "visited", "year": 2014, "when": "Apr 2014 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
 ]
