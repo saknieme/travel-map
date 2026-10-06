@@ -3,6 +3,7 @@
 
 const WORLD_COUNTRIES = 195;
 const $ = s => document.querySelector(s);
+const fold = s => String(s ?? "").normalize("NFD").replace(/\p{M}/gu, "").toLowerCase();
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[c]));
 const fmtCoord = (lat, lng) => `${Math.abs(lat).toFixed(2)}°${lat >= 0 ? "N" : "S"}  ${Math.abs(lng).toFixed(2)}°${lng >= 0 ? "E" : "W"}`;
 
@@ -54,7 +55,7 @@ function visible(p) {
   if (filter !== "all" && p.status !== filter) return false;
   if (year && p.year !== year) return false;
   if (query) {
-    const hay = [p.name, p.country, ...(p.tags || [])].join(" ").toLowerCase();
+    const hay = fold([p.name, p.country, p.notes, ...(p.tags || [])].join(" "));
     if (!hay.includes(query)) return false;
   }
   return true;
@@ -220,7 +221,7 @@ function renderAll() { renderStats(); renderDetail(); renderList(); drawPins(); 
 document.querySelectorAll(".chip").forEach(c => c.onclick = () => {
   filter = c.dataset.f; document.querySelectorAll(".chip").forEach(x => x.setAttribute("aria-pressed", x === c)); renderAll();
 });
-$("#q").addEventListener("input", e => { query = e.target.value.trim().toLowerCase(); renderList(); drawPins(); });
+$("#q").addEventListener("input", e => { query = fold(e.target.value.trim()); renderList(); drawPins(); });
 let tt;
 function toast(m) { const el = $("#toast"); el.textContent = m; el.hidden = false; clearTimeout(tt); tt = setTimeout(() => el.hidden = true, 3200); }
 new ResizeObserver(() => map.invalidateSize()).observe($("#map"));
