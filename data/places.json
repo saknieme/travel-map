@@ -23,5 +23,6 @@
   {"id": "volos", "name": "Volos", "country": "Greece", "lat": 39.362, "lng": 22.942, "status": "visited", "year": 2014, "when": "Jun 2014 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "alicante", "name": "Alicante", "country": "Spain", "lat": 38.345, "lng": -0.481, "status": "visited", "year": 2014, "when": "Apr 2014 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
   {"id": "benalmadena-2013", "name": "Benalmádena", "country": "Spain", "lat": 36.596, "lng": -4.573, "status": "visited", "year": 2013, "when": "Jul 2013 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]},
-  {"id": "hongkong", "name": "Hongkong", "country": "China", "lat": 22.32, "lng": 114.17, "status": "visited", "year": 2015, "when": "Aug 2015 · 2 weeks", "notes": "Business trip. (Hong Kong)", "tags": ["business"]}
+  {"id": "hongkong", "name": "Hongkong", "country": "China", "lat": 22.32, "lng": 114.17, "status": "visited", "year": 2015, "when": "Aug 2015 · 2 weeks", "notes": "Business trip. (Hong Kong)", "tags": ["business"]},
+  {"id": "carvoeiro", "name": "Carvoeiro", "country": "Portugal", "lat": 37.097, "lng": -8.472, "status": "visited", "year": 2012, "when": "Dec 2012 · 1 week", "notes": "Family vacation.", "tags": ["family", "vacation"]}
 ]
